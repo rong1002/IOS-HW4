@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var iphoneData = UserData()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            TabView {
+                UserList(iphoneData: self.iphoneData)
+                    .tabItem {
+                        Text("List")
+                        Image(systemName: "globe")
+                }
+                Chart(iphoneData: self.iphoneData)
+                    .tabItem{
+                    Image(systemName: "chart.pie")
+                    Text("Chart")
+                }
+            }
+            .accentColor(.orange)
+        }
     }
 }
 

@@ -13,6 +13,15 @@
 		912C381E2566560C00EA52F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912C381D2566560C00EA52F0 /* Preview Assets.xcassets */; };
 		912C38292566560C00EA52F0 /* IOS_HW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C38282566560C00EA52F0 /* IOS_HW4Tests.swift */; };
 		912C38342566560C00EA52F0 /* IOS_HW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C38332566560C00EA52F0 /* IOS_HW4UITests.swift */; };
+		912C384D2566569A00EA52F0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C384C2566569A00EA52F0 /* UserData.swift */; };
+		912C3852256656B000EA52F0 /* UserEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3851256656B000EA52F0 /* UserEditor.swift */; };
+		912C3857256656BE00EA52F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3856256656BE00EA52F0 /* User.swift */; };
+		912C385C256656D500EA52F0 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C385B256656D500EA52F0 /* UserRow.swift */; };
+		912C3861256656FB00EA52F0 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3860256656FB00EA52F0 /* UserList.swift */; };
+		914FB3982567A58300ADF22C /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB3972567A58300ADF22C /* Search.swift */; };
+		914FB39E2567ECAC00ADF22C /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB39D2567ECAC00ADF22C /* PieChart.swift */; };
+		914FB3A32567EDD500ADF22C /* Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB3A22567EDD500ADF22C /* Histogram.swift */; };
+		914FB3A82567EE8300ADF22C /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FB3A72567EE8300ADF22C /* Chart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		912C382F2566560C00EA52F0 /* IOS-HW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-HW4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912C38332566560C00EA52F0 /* IOS_HW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW4UITests.swift; sourceTree = "<group>"; };
 		912C38352566560C00EA52F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912C384C2566569A00EA52F0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		912C3851256656B000EA52F0 /* UserEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditor.swift; sourceTree = "<group>"; };
+		912C3856256656BE00EA52F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		912C385B256656D500EA52F0 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		912C3860256656FB00EA52F0 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		914FB3972567A58300ADF22C /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		914FB39D2567ECAC00ADF22C /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		914FB3A22567EDD500ADF22C /* Histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histogram.swift; sourceTree = "<group>"; };
+		914FB3A72567EE8300ADF22C /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,17 @@
 		912C38152566560900EA52F0 /* IOS-HW4 */ = {
 			isa = PBXGroup;
 			children = (
+				912C3860256656FB00EA52F0 /* UserList.swift */,
+				914FB39D2567ECAC00ADF22C /* PieChart.swift */,
+				914FB3A22567EDD500ADF22C /* Histogram.swift */,
+				914FB3A72567EE8300ADF22C /* Chart.swift */,
+				912C3856256656BE00EA52F0 /* User.swift */,
 				912C38162566560900EA52F0 /* IOS_HW4App.swift */,
 				912C38182566560900EA52F0 /* ContentView.swift */,
+				912C384C2566569A00EA52F0 /* UserData.swift */,
+				912C3851256656B000EA52F0 /* UserEditor.swift */,
+				914FB3972567A58300ADF22C /* Search.swift */,
+				912C385B256656D500EA52F0 /* UserRow.swift */,
 				912C381A2566560C00EA52F0 /* Assets.xcassets */,
 				912C381F2566560C00EA52F0 /* Info.plist */,
 				912C381C2566560C00EA52F0 /* Preview Content */,
@@ -259,7 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914FB39E2567ECAC00ADF22C /* PieChart.swift in Sources */,
+				912C384D2566569A00EA52F0 /* UserData.swift in Sources */,
+				912C3852256656B000EA52F0 /* UserEditor.swift in Sources */,
+				914FB3A82567EE8300ADF22C /* Chart.swift in Sources */,
 				912C38192566560900EA52F0 /* ContentView.swift in Sources */,
+				912C385C256656D500EA52F0 /* UserRow.swift in Sources */,
+				912C3857256656BE00EA52F0 /* User.swift in Sources */,
+				914FB3A32567EDD500ADF22C /* Histogram.swift in Sources */,
+				914FB3982567A58300ADF22C /* Search.swift in Sources */,
+				912C3861256656FB00EA52F0 /* UserList.swift in Sources */,
 				912C38172566560900EA52F0 /* IOS_HW4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
