@@ -58,25 +58,25 @@ struct legend: View {
                 Circle()
                     .fill(Color.red)
                     .frame(width: 20, height: 20)
-                Text("一分流暢度")
+                Text("一分順暢度")
                 Circle()
                     .fill(Color.orange)
                     .frame(width: 20, height: 20)
-                Text("兩分流暢度")
+                Text("兩分順暢度")
                 Circle()
                     .fill(Color.yellow)
                     .frame(width: 20, height: 20)
-                Text("三分流暢度")
+                Text("三分順暢度")
             }
             HStack{
                 Circle()
                     .fill(Color.green)
                     .frame(width: 20, height: 20)
-                Text("四分流暢度")
+                Text("四分順暢度")
                 Circle()
                     .fill(Color.blue)
                     .frame(width: 20, height: 20)
-                Text("五分流暢度")
+                Text("五分順暢度")
             }
         }
     }
